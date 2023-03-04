@@ -1,10 +1,9 @@
 # hpc
 
-##### Parallel Breadth First Search and Depth First Search based on existing algorithms using OpenMP.
-Use a Tree or an undirected graph for BFS and DFS.
+##### Parallel Breadth First Search and Depth First Search based on existing algorithms using OpenMP. Use a Tree or an undirected graph for BFS and DFS.
 
 + Program
-```cpp
+  ```cpp
 #include <iostream>
 #include <queue>
 #include <vector>
@@ -93,10 +92,10 @@ int main() {
 
     return 0;
 }
-```
+  ```
 + Output
-```bash
+  ```bash
 BFS starting from vertex 3: 3 1 4 5 0 2 
 DFS starting from vertex 5: 5 3 1 0 2 4 
-```
+  ```
 ***
