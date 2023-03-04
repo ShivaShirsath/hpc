@@ -94,10 +94,7 @@
    }
    ```
 + Output
-   ```bash
-   BFS starting from vertex 3: 3 1 4 5 0 2 
-   DFS starting from vertex 5: 5 3 1 0 2 4 
-   ```
+   ```bashkm
 ***
 ##### Write a program to implement Parallel Bubble Sort and Merge sort using OpenMP. Use existing algorithms and measure the performance of sequential and parallel algorithms.
 + Program
