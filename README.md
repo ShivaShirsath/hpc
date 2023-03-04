@@ -143,15 +143,15 @@
    void show(int op, vector<int>& arr){
        vector<int> copy = arr;    string str="", name="";
        switch(op){
-           case 0:    name="Original";   str=" without";  break;
+           case 0:    name="Original";   str=" without";     break;
            case 1:    name="Sequential"; str="bubble";   
-                   sort(copy.begin(), copy.end());        break;
+                      sort(copy.begin(), copy.end());        break;
            case 2:    name="Parallel";   str="  bubble";
-                   parallel_bubble_sort(copy);            break;
+                      parallel_bubble_sort(copy);            break;
            case 3:    name="Sequential"; str=" merge";
-                   stable_sort(copy.begin(), copy.end()); break;
-           case 4:    name="Parallel";   str="   merge";
-                   parallel_merge_sort(copy);             break;
+                      stable_sort(copy.begin(), copy.end()); break;
+           case 4:    name="Parallel";   str=" merge";
+                      parallel_merge_sort(copy);             break;
        }
        cout << name  << " " << str << " sort : ";
        for (const auto& num : copy) cout << num << " ";
